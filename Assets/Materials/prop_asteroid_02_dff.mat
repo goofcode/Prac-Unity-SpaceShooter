@@ -6,9 +6,9 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: prop_asteroid_01_mat
+  m_Name: prop_asteroid_02_dff
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _EMISSION _NORMALMAP
+  m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -18,7 +18,7 @@ Material:
     - first:
         name: _BumpMap
       second:
-        m_Texture: {fileID: 2800000, guid: f6db5bbdfe0e9894798706814cd6b336, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -48,7 +48,7 @@ Material:
     - first:
         name: _MainTex
       second:
-        m_Texture: {fileID: 2800000, guid: ae6a7f967521769458b0913fa39caaf4, type: 3}
+        m_Texture: {fileID: 2800000, guid: ba157ba55f72c424a9e88f3c029997c4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -87,7 +87,7 @@ Material:
       second: 1
     - first:
         name: _Glossiness
-      second: 0.316
+      second: 0.5
     - first:
         name: _GlossyReflections
       second: 1
@@ -103,9 +103,6 @@ Material:
     - first:
         name: _Parallax
       second: 0.02
-    - first:
-        name: _Shininess
-      second: 0.112127006
     - first:
         name: _SmoothnessTextureChannel
       second: 0
@@ -128,6 +125,3 @@ Material:
     - first:
         name: _EmissionColor
       second: {r: 0, g: 0, b: 0, a: 1}
-    - first:
-        name: _SpecColor
-      second: {r: 0.41911763, g: 0.39786422, b: 0.34207395, a: 1}
